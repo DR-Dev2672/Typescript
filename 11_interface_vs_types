@@ -1,0 +1,30 @@
+/* Addition features in interfaces compare to types */
+
+
+interface User{
+    readonly dbId:number,
+    email:string,
+    userId:number,
+    // startTrail:()=>string, // this is also the way to write it
+    startTrail():string,
+    getCoupon(couponName:string,value:number):number
+}
+
+
+//   1......adding new key value pair or reopening the interface 
+
+interface User{
+    githubToken:string
+}
+
+
+// 2.... inheritance in interfaces......extends properties
+
+
+interface Admin extends User{
+    role:"admin"|"ta"|"leader"
+}
+
+
+
+export{}
