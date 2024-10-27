@@ -6,7 +6,7 @@ function getVal(val:number){
     else
       return "200 OK"
 }
-//string and boolean both uses 
+//string and boolean   both uses 
 
 
 const heroes=[
