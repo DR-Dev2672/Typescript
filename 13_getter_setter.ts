@@ -1,0 +1,1 @@
+/* in this we will learn about getter and setter in typescript */
