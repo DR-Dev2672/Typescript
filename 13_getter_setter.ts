@@ -13,7 +13,10 @@ class User {
         
     }
 
- 
+     //get is use for getting the value
+     //we can use get to get a private value only inside the class
+
+
     get getAppleEmail():string{
         return `apple${this.email}`
     }
@@ -21,7 +24,7 @@ class User {
     get courseCount():number{
         return this._courseCount
     }
-
+    // set is use to set/changing any value of a class
     set courseCount(courseNum){
         if(courseNum<=1){
          throw new Error(`Course count should be more than 1`)
