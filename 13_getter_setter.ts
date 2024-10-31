@@ -1,5 +1,5 @@
 /* in this we will learn about getter and setter in typescript */
-
+/*tis id ofot*/
 class User {
     
     private _courseCount=1;
