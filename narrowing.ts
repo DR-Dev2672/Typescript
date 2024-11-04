@@ -35,3 +35,16 @@ function printAll(strs: string | string[] | null) {
       }
     }
   }
+
+//instance of narrowing
+  function logValue(x: Date | string) {
+    if (x instanceof Date) {
+      console.log(x.toUTCString());
+                 
+ 
+    } else {
+      console.log(x.toUpperCase());
+                 
+  
+    }
+  }
