@@ -37,6 +37,7 @@ function printAll(strs: string | string[] | null) {
   }
 
 //instance of narrowing
+//instance creation then use
   function logValue(x: Date | string) {
     if (x instanceof Date) {
       console.log(x.toUTCString());
